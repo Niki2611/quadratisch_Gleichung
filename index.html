@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-size: 50px;
+            background-color: rgb(167, 249, 167);
+            text-align: center;
+            text-shadow: 0 0 20px rgb(226, 240, 248);
+        }
+    
+    </style>
+</head>
+<body>
+    <script>
+     let a=+prompt("Задайте змінну a");
+    let b=+prompt("Задайте змінну b");
+    let c=+prompt("Задайте змінну c");
+    //let x=+prompt("Задайте змінну x");    
+    
+     let D=b*b-4*a*c;    
+    if (D > 0) {
+     alert('Рівняння має два корені');  }
+     else if (D == 0) {
+     alert('Рівняння має один корень');  }
+     else  {
+     alert('Рівняння коренів нема');  }
+     //let k=a*x*x+d*x+c
+     document.write("<p>"+"Дескрімінант рівняння =  "+ b + "*" + b + "-"+'4'+"*"+a+"*"+c +'='+ D +"</p>");
+   // document.write("<p>"+"Корінь рівняння = a * x * x + d * x + c "+ a + "*" + x + "*" + x + "+" + d +  "*" +  x  + "+" + c +"</p>");
+    </script>
+</body>
+</html> 
